@@ -1,0 +1,169 @@
+body {
+	padding: 0px;
+	margin: 15px;
+	color: white;
+}
+
+.header {
+	background-image: url(images/bg1.jpg);
+	background-size: cover;
+	max-width: 1700px;
+	height: 820px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 48px;
+	line-height: 26px;
+	
+}
+.header__bhromaon {
+	font-family: 'Josefin Sans', sans-serif;
+	padding-top: 270px;
+}
+
+.header__search {
+	font-family: 'Josefin Sans', sans-serif;
+	width: 650px;
+	height: 60px;
+	margin: auto;
+}
+
+.header__search--button {
+	font-family: 'Aleo', serif;
+	background-color: #5474fd;
+	border: 3px double red;
+
+}
+
+.header__bottom {
+	display: inline-flex;
+	background-color: #5474fd;
+	justify-content: space-between;
+	float: bottom;
+}
+
+.why_choose_us {
+	background-image: url(images/bg2.jpg);
+	max-width: 1700px;
+	height: 680px;
+	padding: 0 320px 0 320px;
+}
+
+.why_choose_us__left_block {
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	width: 540px;
+	height: 370px;
+}
+.why_choose_us__left_block--button {
+	font-family: 'Aleo', serif;
+	background-color: #5474fd;
+}
+
+.why_choose_us__left_block {
+	width: 480px;
+	height: 470px;
+	width: 50%;
+	float: left;
+	padding-top: 180px;
+}
+
+.why_choose_us__right_block {
+	width: 50%;
+	float: right;
+	padding-top: 100px;
+}
+
+
+.first_img {
+	align-self: flex-start;
+	width: 350px;
+	height: 220px;
+}
+
+.second_img {
+	align-self: flex-end;
+	width: 350px;
+	height: 220px;
+}
+
+.how_it_works {
+	background-image: url(images/bg3.jpg);
+	max-width: 1700px;
+	height: 320px;
+	display: inline-flex;
+	width: 100%;
+	text-align: center;
+	justify-content: space-around;
+	padding-top: 90px;
+}
+
+.section1 {
+	background-image: url(images/bg4g1.jpg);
+	max-width: 1700px;
+	height: 680px;
+}
+
+.section1__text {
+	width: 540px;
+	height: 370px;
+	background: black;
+	opacity: 0.5;
+	padding: 15px;
+	text-align: left;
+	border: 3px double red;
+}
+
+.section__text--button {
+	font-family: 'Aleo', serif;
+	background-color: #5474fd;
+}
+
+.section2 {
+	background-image: url(images/bg4g2.jpg);
+	max-width: 1700px;
+	height: 680px;
+}
+
+.section2__text {
+	width: 540px;
+	height: 370px;
+	background: black;
+	opacity: 0.5;
+	padding: 15px;
+	text-align: left;
+	margin-left: 50%;
+}
+
+.testimonial {
+	background-image: url(images/bg5.jpg);
+	max-width: 1700px;
+	height: 795px;
+	text-align: center;
+}
+
+.testimonial__tourist {
+	padding-top: 100px;
+}
+
+.testimonial__sam {
+	display: inline-flex;
+	padding-top: 140px;
+}
+
+.testimonial__sam--img {
+	width: 450px;
+	height: 290px;
+}
+
+footer {
+	background-image: url(images/bg7.jpg);
+	max-width: 1700px;
+	height: 260px;
+	text-align: center;
+	padding-top: 100px;
+	margin-bottom: 40px;
+}
